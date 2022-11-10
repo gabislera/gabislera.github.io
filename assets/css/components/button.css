@@ -1,0 +1,28 @@
+.button {
+    background-color: #f25a70;
+    padding: 18px 20px;
+    /* line-height: 60px; */
+    display: inline-block;
+    /* align-items: center; */
+    box-shadow: 5px 5px 0 black; /* x, y, blur, color */
+    transition: transform 100ms ease-in-out;
+    margin-right: 0;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+
+    }
+
+
+.button:hover {
+    transform: scale(1.08);
+}
+
+
+
+/* @media (max-width: 900px) {
+    .button {
+        display: none;
+    }
+
+} */
