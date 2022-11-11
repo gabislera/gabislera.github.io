@@ -1,0 +1,21 @@
+.mobile-icon {
+    display: none;
+}
+
+@media (max-width: 900px) {
+    nav {
+        display: none;
+    }
+
+    .mobile-icon {
+        display: block;
+    }
+    .mobile-icon button {
+        background-color: transparent;
+        border: none;
+    }
+    .banner .wrapper {
+        display: none;
+        
+    }
+}
