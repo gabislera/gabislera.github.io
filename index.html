@@ -19,15 +19,14 @@
     <link rel="stylesheet" href="assets/css/components/banner.css">
     <link rel="stylesheet" href="assets/css/components/responsivo.css">
 
+
     <title>Site Gabislera</title>
 </head>
 <body>
     <header class="header">
-        <!-- <img src="assets/imgs/gengar.png" alt="gengar"> -->
         <img class="imagem" src="assets/imgs/haunter.gif" alt="haunter">
 
-    
-        <nav>
+        <nav class="menu-aberto">
             <a class="action" href="">Skills</a>
             <a class="action" href="">Projetos</a>
             <a class="action" href="">Sobre</a>
@@ -35,10 +34,21 @@
             <a class="button" href="" lang="en">Download CV</a>
         </nav>
 
-        <div class="mobile-icon">
-            <button><img src="assets/imgs/menu_white_36dp.svg"></button>
+        
+        <div class="mobile-icon">   <!-- Adicionado para teste de responsividade -->
+            <button onclick="menuShow()"><img src="assets/imgs/menu_white_36dp.svg"></button>
         </div>
+
     </header>
+
+    <nav class="menu-fechado">      <!-- Adicionado para teste de responsividade -->
+        <div class="menu-fechado-div">
+            <a class="action" href="">Skills</a>
+            <a class="action" href="">Projetos</a>
+            <a class="action" href="">Sobre</a>
+            <a class="action" href="">Contatos</a>
+        </div>
+    </nav>
 
     <section class="banner">
         <div class="wrapper">
@@ -54,8 +64,6 @@
         </div>
     </section>
 
-
-
-
+<script src="assets/js/script.js"></script>
 </body>
 </html>
