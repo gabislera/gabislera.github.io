@@ -13,7 +13,6 @@
     .menu-aberto {
         display: none;
     }
-
     .mobile-icon {
         display: block;   
     }
@@ -22,7 +21,6 @@
         border: none;
         cursor: pointer;
         box-shadow: 5px 5px 0 black; /* x, y, blur, color */
-
     }
     .mobile-icon button:hover {
         transform: scale(1.1);
@@ -30,7 +28,6 @@
     .banner .wrapper {
         display: none;
     }
-
     .menu-fechado .action {
         background-color: #f25a70;
         display: flex;
@@ -38,12 +35,9 @@
         border: 1px solid black;
         width: 900px;
     }
-
     .menu-fechado .action::before {
         display: none;
     }
-
-
     .open {
         background-color: #3A4043;
         display: flex;
