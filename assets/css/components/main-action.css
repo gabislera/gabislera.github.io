@@ -1,4 +1,4 @@
-.action {
+.main-action {
     color: white;
     font-size: 20px;
     font-weight: 500;
@@ -6,7 +6,7 @@
     margin-right: 30px;
 }
 
-.action:before {
+.main-action:before {
     display: inline-block;
     content: "";
     background-color: #f25a70;
