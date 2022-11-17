@@ -1,24 +1,24 @@
-.section {
+.main-section {
     background-color: #f25a70;
     padding-top: 50px;
     padding-bottom: 100px;
     border-bottom: 5px solid black;
 }
 
-.section .todos {
+.main-section .todos {
     display: flex;
     justify-content: space-evenly;
 }
 
-.section .main-title {
+.main-section .main-title {
     margin-bottom: 50px;
 }
 
-.section.-bgBlack {
+.main-section.-bgBlack {
     background-color: #3A4043;
 }
 
-.section.-bdFirst {
+.main-section.-bdFirst {
     border-color: #f25a70;
     padding-bottom: 50px;
 }

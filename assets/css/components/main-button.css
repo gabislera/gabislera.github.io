@@ -1,4 +1,4 @@
-.button {
+.main-button {
     background-color: #f25a70;
     padding: 18px 20px;
     /* line-height: 60px; */
@@ -14,7 +14,7 @@
     }
 
 
-.button:hover {
+.main-button:hover {
     transform: scale(1.08);
 }
 
