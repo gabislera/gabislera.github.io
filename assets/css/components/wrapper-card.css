@@ -1,0 +1,7 @@
+.wrapper-card {
+    display: flex;
+    flex-wrap: wrap; 
+    max-width: 1200px;  
+    margin-left: auto;
+    margin-right: auto;
+}
