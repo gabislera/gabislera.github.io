@@ -19,6 +19,14 @@
 }
 
 .main-section.-bdFirst {
-    border-color: #f25a70;
+    border-color: #000;
     padding-bottom: 50px;
+}
+
+.main-section.-bgSecond{
+    background-color: #a986cc;
+}
+
+.main-section.-bdBlack {
+    border-color: #000;
 }
