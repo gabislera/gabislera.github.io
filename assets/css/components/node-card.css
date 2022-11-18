@@ -14,7 +14,7 @@
     width: 40px;
     border: 2px dashed #000;
     transform: rotate(90deg) translateX(-62%);
-    bottom: 140px;
+    bottom: 130px;
 }
 
 .node-card .title {
