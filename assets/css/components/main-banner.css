@@ -1,4 +1,5 @@
 .main-banner {
+    display: flex;
     box-sizing: border-box;
     background-image: url(../../imgs/foto.jpg);
     height: 740px;
