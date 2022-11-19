@@ -4,6 +4,9 @@
     align-items: center;
     position: relative;
     margin: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+
 }
 
 .node-card::before {
