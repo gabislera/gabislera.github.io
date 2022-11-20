@@ -33,6 +33,7 @@
     <link rel="stylesheet" href="assets/css/components/main-label.css">
     <link rel="stylesheet" href="assets/css/components/main-input.css">
     <link rel="stylesheet" href="assets/css/components/main-form.css">
+    <link rel="stylesheet" href="assets/css/components/icon-menu.css">
 
     <title>Portfolio Gabi Carniel</title>
 </head>
@@ -41,31 +42,18 @@
     <header class="main-header">
         <img class="imagem" src="assets/imgs/haunter.gif" alt="haunter">
 
-        <nav class="menu-aberto">
+        <a href="#menu" class="icon-menu main-button">
+            <img class="icon" src="assets/imgs/icon-menu.png" alt="menu aberto">
+        </a>
+        
+        <nav id="menu" class="menu">
             <a class="main-action" href="">Skills</a>
             <a class="main-action" href="">Projetos</a>
             <a class="main-action" href="">Sobre</a>
             <a class="main-action" href="">Contatos</a>
             <a class="main-button" href="" lang="en">Download CV</a>
         </nav>
-
-
-        <div class="mobile-icon">
-            <!-- Adicionado para teste de responsividade -->
-            <button onclick="menuShow()"><img src="assets/imgs/menu_white_36dp.svg"></button>
-        </div>
-
     </header>
-
-    <nav class="menu-fechado">
-        <!-- Adicionado para teste de responsividade -->
-        <div class="menu-fechado-div">
-            <a class="main-action" href="">Skills</a>
-            <a class="main-action" href="">Projetos</a>
-            <a class="main-action" href="">Sobre</a>
-            <a class="main-action" href="">Contatos</a>
-        </div>
-    </nav>
 
     <section class="main-banner">
         <div class="wrapper">
