@@ -1,0 +1,15 @@
+body {
+    font-family: 'Fira Code', sans-serif;
+    margin: 0px;
+    color: #3A4043;
+}
+
+h1, h2, h3, p {
+    margin: 0px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}

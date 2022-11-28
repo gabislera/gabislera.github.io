@@ -1,278 +1,37 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/components/main-button.css">
-    <link rel="stylesheet" href="assets/css/components/main-title.css">
-    <link rel="stylesheet" href="assets/css/components/main-subtitle.css">
-    <link rel="stylesheet" href="assets/css/components/main-box.css">
-    <link rel="stylesheet" href="assets/css/components/main-action.css">
-    <link rel="stylesheet" href="assets/css/components/main-header.css">
-    <link rel="stylesheet" href="assets/css/components/imagem.css">
-    <link rel="stylesheet" href="assets/css/components/main-banner.css">
-    <link rel="stylesheet" href="assets/css/components/responsivo.css">
-    <link rel="stylesheet" href="assets/css/components/main-section.css">
-    <link rel="stylesheet" href="assets/css/components/skill-tec.css">
-    <link rel="stylesheet" href="assets/css/components/progress-bar.css">
-    <link rel="stylesheet" href="assets/css/components/card-project.css">
-    <link rel="stylesheet" href="assets/css/components/wrapper-card.css">
-    <link rel="stylesheet" href="assets/css/components/main-description.css">
-    <link rel="stylesheet" href="assets/css/components/buttom-arrow.css">
-    <link rel="stylesheet" href="assets/css/components/node-card.css">
-    <link rel="stylesheet" href="assets/css/components/main-carousel.css">
-    <link rel="stylesheet" href="assets/css/components/main-footer.css">
-    <link rel="stylesheet" href="assets/css/components/main-label.css">
-    <link rel="stylesheet" href="assets/css/components/main-input.css">
-    <link rel="stylesheet" href="assets/css/components/main-form.css">
-    <link rel="stylesheet" href="assets/css/components/icon-menu.css">
-
-    <title>Portfolio Gabi Carniel</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Portfolio</title>
 </head>
-
 <body>
-    <header class="main-header">
-        <img class="imagem" src="assets/imgs/haunter.gif" alt="haunter">
-
-        <a href="#menu" class="icon-menu main-button">
-            <img class="icon" src="assets/imgs/icon-menu.png" alt="menu aberto">
-        </a>
-        
-        <nav id="menu" class="menu">
-            <a class="main-action" href="">Skills</a>
-            <a class="main-action" href="">Projetos</a>
-            <a class="main-action" href="">Sobre</a>
-            <a class="main-action" href="">Contatos</a>
-            <a class="main-button" href="" lang="en">Download CV</a>
+    <header class="header">
+        <img class="logo" src="./img/haunter.gif" alt="gengar pokemon">
+        <nav>
+            <ul class="header-menu">
+                <li><a class="main-button" href="#experiencia">Experiência</a></li>
+                <li><a class="main-button" href="#formacao">Formação</a></li>
+                <li><a class="main-button" href="#contato">Contato</a></li>
+            </ul>
         </nav>
     </header>
 
-    <section class="main-banner">
-        <div class="wrapper">
-            <div class="main-box">
+    <main class="introducao">
+        <div class="content">
+            <img class="background" src="./img/foto1.jpg" alt="">
+    
+            <div class="box">
                 <h1 class="main-title">Gabi Carniel</h1>
                 <h2 class="main-subtitle">FrontEnd Developer</h2>
             </div>
-
-            <div class="navigation">
-                <a class="main-button" href="" lang="en">Download CV</a>
-                <a class="main-button" href="">Contatos</a>
-            </div>
         </div>
-    </section>
 
-    <section class="main-section">
-        <h2 class="main-title -second">Skills</h2>
-
-        <div class="todos">
-            <article class="skill-tec">
-                <div class="right">
-                    <img class="icon" src="assets/imgs/html.png" alt="html logo">
-                    <progress class="progress-bar" max="100" value="53">
-                        70%
-                    </progress>
-                </div>
-            </article>
-            <article class="skill-tec">
-                <div class="right">
-                    <img class="icon" src="assets/imgs/css.png" alt="css logo">
-                    <progress class="progress-bar" max="100" value="75">
-                        70%
-                    </progress>
-                </div>
-            </article>
-            <article class="skill-tec">
-                <div class="right">
-                    <img class="icon" src="assets/imgs/js.png" alt="javascript logo">
-                    <progress class="progress-bar" max="100" value="40">
-                        70%
-                    </progress>
-                </div>
-            </article>
-        </div>
-    </section>
-
-    <section class="main-section -bgBlack -bdFirst">
-        <h2 class="main-title -second">Interesses</h2>
-
-        <div class="wrapper-card">
-            <figure class="card-project">
-                <a href="https://www.epicgames.com/fortnite/pt-BR/home" target="_blank">
-                    <img class="logo" src="assets/imgs/fortnite.png" alt="fotrnite logo">
-                </a>
-            </figure>
-            <figure class="card-project">
-                <a href="https://www.leagueoflegends.com/pt-br/" target="_blank">
-                    <img class="logo" src="assets/imgs/lol.png" alt="league of legends logo">
-                </a>
-            </figure>
-            <figure class="card-project">
-                <a href="https://playvalorant.com/pt-br/" target="_blank">
-                    <img class="logo" src="assets/imgs/valorant.png" alt="valorant logo">
-                </a>
-            </figure>
-            <figure class="card-project">
-                <a href="https://open.spotify.com/" target="_blank">
-                    <img class="logo" src="assets/imgs/spotify.png" alt="spotify logo">
-                </a>
-            </figure>
-            <figure class="card-project">
-                <a href="https://github.com/" target="_blank">
-                    <img class="logo" src="assets/imgs/github.png" alt="github logo">
-                </a>
-            </figure>
-            <figure class="card-project">
-                <a href="https://www.nintendo.com/pt-br/switch/" target="_blank">
-                    <img class="logo" src="assets/imgs/twitch.png" alt="twitch logo">
-                </a>
-            </figure>
-            <figure class="card-project">
-                <a href="https://twitter.com/" target="_blank">
-                    <img class="logo" src="assets/imgs/switch.png" alt="switch logo">
-                </a>
-            </figure>
-            <figure class="card-project">
-                <a href="https://code.visualstudio.com/" target="_blank">
-                    <img class="logo" src="assets/imgs/vscode.png" alt="vscode logo">
-                </a>
-            </figure>
-        </div>
-    </section>
-
-    <section class="main-section -bgSecond -bdBlack">
-        <h2 class="main-title -second">Sobre</h2>
-
-        
-
-        <section class="main-carousel">
-            <button class="button-arrow -left"><span class="content">Avançar</span></button>
-
-                <div class="items">
-                    <div class="elements">
-                        <figure class="node-card">
-                            <figcaption class="title">#004</figcaption>
-                            <div class="logo">
-                                <img src="assets/imgs/charmander.png" alt="charmander">
-                            </div>
-                        </figure>
-
-                        <figure class="node-card -first">
-                            <figcaption class="title">#001</figcaption>
-                            <div class="logo">
-                                <img src="assets/imgs/bulbassour.png" alt="bullbasaur">
-                            </div>
-                        </figure>
-
-                        <figure class="node-card">
-                            <figcaption class="title">#025</figcaption>
-                            <div class="logo">
-                                <img src="assets/imgs/pikachu.png" alt="pikachu">
-                            </div>
-                        </figure>
-
-                        <figure class="node-card -first">
-                            <figcaption class="title">#007</figcaption>
-                            <div class="logo">
-                                <img src="assets/imgs/squirtle.png" alt="squirtle">
-                            </div>
-                        </figure>
-
-                        <figure class="node-card">
-                            <figcaption class="title">#133</figcaption>
-                            <div class="logo">
-                                <img src="assets/imgs/eevee.png" alt="eevee">
-                            </div>
-                        </figure>
-
-                        <figure class="node-card -first">
-                            <figcaption class="title">#147</figcaption>
-                            <div class="logo">
-                                <img src="assets/imgs/dratini.png" alt="Dratini">
-                            </div>
-                        </figure>
-
-                        <figure class="node-card">
-                            <figcaption class="title">#054</figcaption>
-                            <div class="logo">
-                                <img src="assets/imgs/psyduck.png" alt="psyduck">
-                            </div>
-                        </figure>       
-                        
-                        <figure class="node-card">
-                            <figcaption class="title">#039</figcaption>
-                            <div class="logo">
-                                <img src="assets/imgs/jigglypuff.png" alt="jigglypuff">
-                            </div>
-                        </figure>
-
-                        <figure class="node-card">
-                            <figcaption class="title">#143</figcaption>
-                            <div class="logo">
-                                <img src="assets/imgs/snorlax.png" alt="snorlax">
-                            </div>
-                        </figure>
-
-                        <figure class="node-card">
-                            <figcaption class="title">#069</figcaption>
-                            <div class="logo">
-                                <img src="assets/imgs/bellsprout.png" alt="bellsprout">
-                            </div>
-                        </figure>
-
-                        <figure class="node-card">
-                            <figcaption class="title">#010</figcaption>
-                            <div class="logo">
-                                <img src="assets/imgs/caterpie.png" alt="caterpie">
-                            </div>
-                        </figure>
-                    </div>
-                </div>
-
-            <button class="button-arrow -right"><span class="content">Voltar</span></button>
-        </section>
-
-        <p class="main-description">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, esse mollitia repellendus hic sunt beatae magni corrupti quisquam illum incidunt, architecto dicta accusamus fuga eum minus quasi sit, autem dolorum.
-        </p>
-    </section>
-
-    <form class="main-form">
-        <legend class="main-title -second">Contatos</legend>
-
-        <label class="main-label" for="name">Nome</label>
-        <input class="main-input" id="name" type="text" required>
-
-        <label class="main-label" for="email">Email</label>
-        <input class="main-input" id="email" type="email" required>
-
-        <label class="main-label" for="message">Mensagem</label>
-        <textarea class="main-input -textarea" id="message"></textarea>
-
-        <button class="main-button -full" type="submit">Enviar</button>
-    </form>
-
-    <footer class="main-footer">
-        <a class="action" href="https://twitter.com/gabscarniel" target="_blank">
-            <img src="assets/imgs/twitter.png" alt="twitter logo">
-        </a>
-        <a class="action" href="https://www.instagram.com/gabscarniel/" target="_blank">
-            <img src="assets/imgs/instagram.png" alt="instagram logo">
-        </a>
-        <a class="action" href="https://discord.com/" target="_blank">
-            <img src="assets/imgs/discord.png" alt="discord logo">
-        </a>
-    </footer>
-
-    <script src="assets/js/components/button.js"></script>
-    <script src="assets/js/components/main-carousel.js"></script>
+    </main>
 </body>
-
 </html>

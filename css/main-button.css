@@ -1,26 +1,15 @@
 .main-button {
     background-color: #f25a70;
     padding: 18px 20px;
-    /* line-height: 60px; */
     display: inline-block;
-    /* align-items: center; */
-    box-shadow: 5px 5px 0 black; /* x, y, blur, color */
+    box-shadow: 5px 5px 0 black; 
     transition: transform 100ms ease-in-out;
     margin-right: 0;
     font-size: 20px;
-    color: #fff;
     text-decoration: none;
     cursor: pointer;
 }
 
 .main-button:hover {
     transform: scale(1.08);
-}
-
-.main-button.-full {
-    width: 100%;
-}
-
-.main-button.main-button.-full:hover {
-    transform: scale(1.01);
 }
