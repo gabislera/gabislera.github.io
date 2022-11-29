@@ -90,7 +90,7 @@
     .experience {
         grid-template-columns: 1fr;
         gap: 40px;
-        padding-top: 50px;
+        padding-top: 30px;
     }
 
     .experience .subtitle {
@@ -108,6 +108,10 @@
         order: 1;
         width: initial;
         text-align: left;
+    }
+
+    .subtitle {
+        font-size: 1.56rem;
     }
 }
 

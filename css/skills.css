@@ -14,38 +14,13 @@
     margin-bottom: 50px;
 }
 
-.main-section.-bgBlack {
-    background-color: #3A4043;
-}
-
-.main-section.-bdFirst {
-    border-color: #000;
-    padding-bottom: 50px;
-}
-
-.main-section.-bgSecond{
-    background-color: #a986cc;
-}
-
-.main-section.-bdBlack {
-    border-color: #000;
-}
-
 .main-title {
     font-family: 'Press Start 2P', sans-serif;
-    font-size: 40px;
-    color: #f25a70;
-    text-shadow: 4px 4px 0 black;
-
-}
-
-.main-title.-second {
+    font-size: 2.5rem;
     color: #fff;
     text-shadow: none;
     text-align: center;
-
 }
-
 
 .skill-tec {
     display: flex;
@@ -65,10 +40,6 @@
     align-items: center;
 }
 
-
-
-
-
 .progress-bar {
     box-sizing: border-box;
     background-color: #FFF;
@@ -85,3 +56,25 @@
     background-color: #a986cc;
 } 
 
+@media (max-width: 800px) {
+    .skill-tec .icon {
+        width: 70px;
+        margin-bottom: 10px;
+    }
+    .progress-bar {
+        border: 2px solid black;
+        height: 12px;
+        width: 80px;
+    }
+    .main-section .todos {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .main-title {
+        font-size: 1.56rem;
+    }
+    .main-section {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}

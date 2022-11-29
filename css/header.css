@@ -33,6 +33,13 @@
     .header-menu {
         display: none;
     }
+    .header {
+        height: 100px;
+    }
+    .logo {
+        height: 80px;
+        padding-bottom: 0;
+    }
     /* .header-menu {
         display: flex;
         flex-direction: column;

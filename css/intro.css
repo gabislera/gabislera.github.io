@@ -39,12 +39,12 @@
 
 
 @media (max-width: 800px) {
-    .intro img {
+
+    .background {
         display: none;
     }
-
     .box {
-        padding: 100px;
+        padding: 50px;
         position: static;
         flex-direction: row;
         flex-wrap: wrap;
