@@ -29,7 +29,7 @@
     text-shadow: 4px 4px 0 black;
 }
 
-.main-subtitle {
+.box .main-subtitle {
     font-family: 'Press Start 2P', sans-serif;
     font-size: 30px;
     color: #f25a70;
@@ -39,17 +39,26 @@
 
 
 @media (max-width: 800px) {
-
     .background {
         display: none;
     }
+
     .box {
-        padding: 50px;
         position: static;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
         box-shadow: none;
         border-bottom: 5px solid #000;
+        padding: 42px 15px; 
+        
+    }
+
+    .box .main-title {
+        font-size: 1.56rem;
+    }
+
+    .box .main-subtitle {
+        font-size: 1.15rem;
     }
 }
