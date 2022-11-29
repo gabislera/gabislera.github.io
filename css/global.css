@@ -4,12 +4,28 @@ body {
     color: #3A4043;
 }
 
-h1, h2, h3, p {
+h1, h2, h3, p, a {
     margin: 0px;
+    padding: 0;
 }
 
 ul {
     margin: 0px;
     padding: 0px;
     list-style: none;
+}
+
+.subtitle {
+    font-size: 8rem;
+    line-height: 1;
+    text-transform: uppercase;
+    word-break: break-all;
+    max-width: 4ch;
+}
+
+@media (max-width: 1200px) {
+    .subtitle {
+        font-size: 3rem;
+        max-width: initial;
+    }
 }
