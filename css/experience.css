@@ -85,14 +85,18 @@
 @media (max-width: 1200px) {
     .company {
         margin-right: 0;
+        
     }
     .experience {
         grid-template-columns: 1fr;
         gap: 40px;
+        padding-top: 50px;
     }
 
     .experience .subtitle {
-        color: #3A4043;
+        font-family: 'Press Start 2P', sans-serif;
+        color: #f5f5f5;
+        text-transform: capitalize;
     }
 
     .experience-content {
