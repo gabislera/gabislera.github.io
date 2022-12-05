@@ -14,3 +14,9 @@
 
 /* Interesses */
 @import "./Interesses/Interesses.css";
+
+/* Formulario */
+@import "./Formulario/formulario.css";
+
+/* Footer */
+@import "./Footer/footer.css";

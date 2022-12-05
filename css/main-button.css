@@ -13,3 +13,13 @@
 .main-button:hover {
     transform: scale(1.08);
 }
+
+.main-button.-full {
+    color: #ffffff;
+    background-color: #3A4043;
+    width: 100%;
+}
+
+.main-button.main-button.-full:hover {
+    transform: scale(1.01);
+}
