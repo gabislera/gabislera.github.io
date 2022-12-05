@@ -7,6 +7,8 @@
     place-items: center;
     gap: 100px;
     background-color: #3A4043;
+    border-bottom: 5px solid #000;
+
 }
 
 .experience .subtitle {
