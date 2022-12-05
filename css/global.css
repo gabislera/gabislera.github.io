@@ -4,7 +4,7 @@ body {
     color: #3A4043;
 }
 
-h1, h2, h3, p, a {
+h1, h2, h3, p, a, figure {
     margin: 0px;
     padding: 0;
 }

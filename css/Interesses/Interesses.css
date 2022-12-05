@@ -6,7 +6,8 @@
     max-width: 1200px;  
     margin-left: auto;
     margin-right: auto;
-    gap: 10px;
+    gap: 50px 100px;
+    padding-bottom: 50px;
 }
 
 .card-project {
@@ -21,6 +22,7 @@
 @media (max-width: 800px) {
     .wrapper-card {
         grid-template-columns: repeat(2, min-content);
-        gap: 0;
+        gap: 40px;
+        padding-bottom: 20px;
     }
 } 
