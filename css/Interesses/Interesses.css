@@ -1,9 +1,12 @@
 .wrapper-card {
-    display: flex;
-    flex-wrap: wrap; 
+    display: grid;
+    grid-template-columns: repeat(4, min-content);
+    justify-content: center;
+    justify-items: center;
     max-width: 1200px;  
     margin-left: auto;
     margin-right: auto;
+    gap: 10px;
 }
 
 .card-project {
@@ -12,7 +15,12 @@
     align-items: center;
     background-color: #a986cc;
     box-shadow: 10px 10px 0px #fff;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 50px;
+    width: 130px;
 }
+
+@media (max-width: 800px) {
+    .wrapper-card {
+        grid-template-columns: repeat(2, min-content);
+        gap: 0;
+    }
+} 

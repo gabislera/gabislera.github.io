@@ -10,16 +10,14 @@
     justify-content: space-evenly;
 }
 
-.main-section .main-title {
-    margin-bottom: 50px;
-}
-
 .main-title {
     font-family: 'Press Start 2P', sans-serif;
     font-size: 2.5rem;
     color: #ffffff;
     text-shadow: none;
     text-align: center;
+    margin-bottom: 50px;
+
 }
 
 .skill-tec {
@@ -57,6 +55,10 @@
 } 
 
 @media (max-width: 800px) {
+    .main-section {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
     .skill-tec .icon {
         width: 70px;
         margin-bottom: 10px;
@@ -72,9 +74,6 @@
     }
     .main-title {
         font-size: 1.56rem;
-    }
-    .main-section {
-        padding-top: 30px;
-        padding-bottom: 30px;
+        margin-bottom: 30px;
     }
 }
