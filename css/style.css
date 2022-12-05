@@ -4,4 +4,13 @@
 @import "./main-button.css";
 @import "./main-action.css";
 @import "./experience.css";
-@import "./skills.css"
+@import "./skills.css";
+
+/* Carousel */
+@import "./Carrosel/main-carousel.css";
+@import "./Carrosel/button-arrow.css";
+@import "./Carrosel/node-card.css";
+@import "./Carrosel/main-section.css";
+
+/* Interesses */
+@import "./Interesses/Interesses.css";
